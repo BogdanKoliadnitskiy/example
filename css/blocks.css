@@ -1,0 +1,92 @@
+body{
+	background-color: Lime;
+}
+p{
+	font-size: 50px;
+	color: Crimson;
+	background-color: aqua;
+}
+.p1{
+	display: inline;
+}
+.p2{
+	display: block;
+}
+.p2 > span{
+	border: 3px dashed DarkOrange;
+	background-color: gold;
+	display: inline-block;
+}
+ul{
+	list-style: none;
+	font-size: 50px;
+	color: Crimson;
+}
+li{
+	display: inline;
+	border: 3px dashed DarkOrange;
+	background-color: gold;
+}
+li:hover{
+	background-color: Lime;
+}
+a{
+	text-decoration: none;
+}
+#d1{
+	width: 500px;
+	height: 500px;
+	background-color: Aqua;
+	font-size: 50px;
+	color: Crimson;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	border: 15px darkorange;
+	border-style: dotted dashed solid double;
+}
+#d2{
+	width: 400px;
+	height: 900px;
+	background-color: MediumOrchid;
+	margin: 100px;
+	padding: 50px;
+	font-size: 50px;
+	color: Crimson;
+	border: 20px double ivory;
+}
+#d3,#d4{
+	width: 800px;
+	height: 200px;
+	background-color: Tomato;
+	margin: 50px;
+	border: 6px dashed;
+	border-color: red yellow blue green;
+	font-size: 50px;
+	color: Crimson;
+}
+#d4{
+	background-color: orchid;
+	border-style: dotted;
+}
+#d5{
+	width: 300px;
+	height: 300px;
+	border: 25px solid;
+	border-color: red;
+	margin: 50px;
+}
+#d6{
+	width: 200px;
+	height: 200px;
+	border: 15px solid;
+	border-color: yellow;
+	margin: 35px;
+}
+#d7{
+	width: 100px;
+	height: 100px;
+	border: 15px solid;
+	border-color: green;
+	margin: 35px;
+}
